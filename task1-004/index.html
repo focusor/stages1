@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>百度前端学院：任务四</title>
+	<style type="text/css">
+		#rect{ 
+			position: absolute;
+			top: 50%;
+			margin-top: -100px;
+			left: 50%;
+			margin-left: -200px;
+			width: 400px;
+			height: 200px;
+			background-color: #ccc;
+			overflow: hidden;
+		}
+		.circle{
+			background-color: #fc0;
+			border-radius: 50px;
+			width: 100px;
+			height: 100px;
+		}
+		#leftCirc{
+			position: relative;
+			left: -50px;
+			top: -50px;
+		}
+		#rightCirc{
+			position: absolute;
+			right: -50px;
+			bottom: -50px;
+		}
+	</style>
+</head>
+<body>
+	<div id="rect">
+		<div id="leftCirc" class="circle"></div>
+		<div id="rightCirc" class="circle"></div>
+	</div>
+</body>
+</html>
