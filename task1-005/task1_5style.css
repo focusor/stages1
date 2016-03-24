@@ -1,0 +1,151 @@
+body{
+	font-family: sans-serif;
+	background-color: #d6d6d6;
+	margin: 0;
+}
+/* header navigation bar */
+header{
+	color: white;
+	background: #333;
+	margin: 0;
+	padding: 0;
+}
+header h1{ margin: 0; margin-left: 40px; margin-top: 10px; display: inline-block;}
+img{ width: 50%;}
+header img{ width: 150px; }
+nav{ float: right; margin-right: 10px; color: black;}
+nav li{ float: left; margin-left: 20px }
+nav li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	margin-left: 10px;
+	position: relative; 
+	left: -10px
+}
+nav li a:hover{ color: grey; }
+
+/* every paragraph */
+div{
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 3px 3px 2px #888888;
+
+}
+div h3{ color:#999; margin: 0;}
+div .pInfo{ color:#999; font-size: 16px;}
+div p{ text-indent: 2em; font-size: 15px;}
+div ul{ list-style: none; }
+div li{font-size: 15px;}
+
+.left{
+	/*float: left;*/
+	margin-right: 390px;
+}
+
+#p3 ul{ margin: 0; padding: 0;}
+
+/* pic lists */
+.pic{ 
+	display: inline-block;
+	margin: 10px;
+	box-shadow: none;
+	border: 1px solid #d4d4d4; 
+	padding: 15px; 
+	width: 150px;
+	text-align: center;
+}
+.pic p{ display: inline; }
+.pic img{ margin-top: 15px; width: 100%;height: 100% }
+
+/* block of last paragraph*/
+#p4 p{ text-indent: 0; }
+#p4 table{ border-collapse: collapse; width: 100%;}
+#p4 table, th, td{ border: 1px solid #999;  }
+#p4 thead{ background-color: #333; color: white; font-weight: bold; }
+thead tr{ text-align: left; }
+#p4 tfoot{ background-color: #999; color: black; font-weight: bold; }
+
+/* sidebar */
+#sidebar{ /* fixed width */ width: 300px; float: right; }
+#sidebar form{ text-align: center; font-size: 14px;}
+#sidebar blockquote{ 
+	margin: 0; 
+	border-left: 3px solid #d4d4d4; 
+	padding-left:10px; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#sidebar h2{ font-size: 20px; margin: 0}
+#sidebar p{ margin: 5px 0; width: 100%; overflow: auto;}
+label{ 
+	position: relative;
+	float: left;
+	left: -17px;
+	width: 135px;
+	text-align:right; 
+}
+.sex{ float: none; 
+	width: 14px; 
+	text-align: left; 
+	position: relative;
+	left: -65px;
+}
+.hobby{
+	font-size: 12px; 
+	float: none; 
+	width: 14px; 
+	text-align: left; 
+	position: relative;
+	left: -35px;
+}
+#sidebar span{ color: #999; display: inline-block;}
+input{ 
+	float: left;
+}
+input[type=radio]{
+	display: inline;
+	position: relative;
+	left: -65px;
+	float: none;
+}
+input[type=checkbox]{
+	display: inline;
+	position: relative;
+	float: none;
+	left: -35px;
+}
+select{ 
+	display: inline;
+	position: relative;
+	left: -70px;
+}
+textarea{ 
+	float: left;
+	width: 150px
+}
+
+input[type=submit]{ 
+	display: block; 
+	background-color: #2153D2; 
+	color: white; 
+	border-radius: 10px;
+	border:none;
+	width: 100%; 
+	margin-top: 10px;
+	padding: 10px 0;
+	font-size: 14px;
+	box-shadow: none;
+}
+ 
+
+/* footer */
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	padding: 20px;
+}
+footer p{ margin:0;}
