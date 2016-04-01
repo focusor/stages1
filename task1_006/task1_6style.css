@@ -1,0 +1,59 @@
+body{ width: 980px; height: 1386px; margin: 0 auto; font-family: "Microsoft YaHei"}
+		header, footer{ margin: 0; width: 892px; height: 61px; border-bottom: 2px #938e8c solid; font-size: 12px; font-family: SimHei, STHeiTi; }
+		#red-box{ display: inline-block; position: relative; height: 61px; width: 110px; background-color: #c9464a;}
+		#red-box span{ position: absolute; font-size: 12px; color: #fff; margin: 40px auto 3px 5px; }
+		header p{ color: #d45d5c; float: right; position: relative; margin-top: 40px;}
+		
+		#container1, #container3{ width: 892px; height: 301px; margin-top: 30px; }
+		#img-box-1, #container2{ width: 641px; height: 301px; margin-right: 30px; float: left;}
+		#img-box-1 img{ display: inline-block; position: relative;}
+		#img-box-1 img:nth-child(2n){ top: -306px; }
+		#img-box-1 img:last-of-type{ top: -306px; left: 254px; }
+		#right-column{ width: 203px; border-top: 2px #cc8091 solid; float: right }
+		#right-column h3{ font-size: 24px; color: #000; font-family: "Microsoft YaHei"; line-height: 40px; text-decoration: underline; margin:0 ; font-variant: small-caps;  }
+		#right-column i{ font-size: 12px; color: #676767; font-family: KaiTi, STKaiTi; line-height: 10px; margin: 0; }
+		#right-column h4{ font-size: 114px; color: #75b86b; font-family: "Microsoft YaHei"; margin: 10px 0 0 0; position: relative; font-style: italic; left: -20px;}
+		#right-column h5{ color: #cc8091; font-size: 55px; margin: -10px 0 0 0; float: left; font-family: "Microsoft YaHei"}
+		#right-column p{ color: #cc8091; float: left; font-family: "Microsoft YaHei"; margin: 15px 0 0 10px; line-height: 10px; }
+		#right-column p span{ color: #999; font-size: 12px; }
+		
+		#container2{ margin-top: 30px; float: none; overflow: auto; height: initial;}
+		#container2 h3{ font-size: 16px; text-decoration: underline; font-family: "Microsoft YaHei"}
+		#container2 p{ font-size: 12px; color: #231815; font-family: "Microsoft YaHei"; line-height: 16px; opacity: 0.7;  }
+		#container2 div{ display: inline-block; float: left; margin-right: 30px; width: 30%}
+		#container2 div:last-of-type{ margin:0;}
+		#green-column h3{ color: #418c59 }
+		#yellow-column h3{ color: #d2994f }
+		#pink-column h3{ color: #cc7680 }
+		#pink-column span{ color: #cd4a48; font-style: italic; }
+		
+		#container3{ height: 548px; margin-bottom: 50px;}
+		#blue-column{ width: 415px; float: left;}
+		#blue-column h3 span{ font:italic bold 72px SimHei,STHeiTi; color: #f5e327; }
+		#blue-column h3{ font: bold 33px SimHei,STHeiTi; color: #11456b; margin: 0;}
+		#blue-column h3:first-of-type{ line-height: 16px; font-size: 42px; margin-bottom:20px;}
+		#blue-column hr{ background-color: #11456b; height: 2px; }
+		#blue-column p{ font: 12px SimSun,STSong; line-height: 16px; margin: 10px auto;}
+		#blue-column span:nth-child(2n){ color: #f5e327; font-size: 70px; font-family: "Microsoft YaHei"; float: left; margin: 0 5px 5px 0;}
+		#blue-column img{ float: right; margin: 5px;}
+		#img-box-2, #yellow-box{ width: 458px; float: right; }
+		#img-box-2{ height: 275px; }
+		#img-box-2 div{ width: 458px; height: 60px; position: relative; bottom: 66px;}
+		#img-box-2 div p{ border-left: 3px #72b16a solid; height: 44px;line-height: 44px; padding-left: 10px; position: relative; bottom: 80px; vertical-align: middle; margin-left: 30px; font-size: 26px; color: #fff;}
+		#img-box-2 span{ font-style: italic; font-size: 12px; display:inline-block; color: #72b16a; transform:scale(1.4,1); -webkit-transform:scale(1.4,1); /* Safari and Chrome */ margin-left: 30px; }
+		#yellow-box{ height: 295px; background-color: #eeedd6;}
+		#yellow-box img{ float: left; margin: 23px 10px 20px 20px; }
+		#yellow-box p{ font: 14px SimHei, STHeiTi; line-height: 16px; margin: 10px; width: 170px; float: right; color: #5a5b5b;}
+		#yellow-box p span{ font-size:72px; color: #d45d5c; margin: -20px; position: relative; top: 35px; left: -20px; }
+		#yellow-box p span:last-of-type{ left: 150px; top: 10px; }
+		ul{ list-style:none; padding: 0;}
+		li{ font: 16px SimSun,STSong; color: #5a5b5b; margin: 20px; }
+		li i{ font: 12px; }
+		#red-box-2{ background-color: #d45d5c; color: white; font-family: SimHei, STHeiTi; float: left; width: 260px; height: 160px; }
+		#red-box-2 h3{ font: 110px "Microsoft YaHei"; margin: 30px 10px; float: left;} 
+		#red-box-2 p{ color: white; font-size: 12px; margin: 0; }
+
+		#red-box-2 div{ float:left; border-left: 2px white solid; width: 165px; height: 86px; margin: 37px auto; padding-left: 5px;}
+		#red-box-2 div h4{ margin: 0; font: 21px; line-height: 24px; }
+		#red-box-2 div p{ position: relative; left: 10px;}
+		footer{ border-bottom: none; border-top: 1px solid #938e8c; text-align: right; color: #d45d5c; font-size: 12px; }
